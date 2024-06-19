@@ -1,0 +1,71 @@
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.navbar {
+
+    justify-content: space-between;
+    color: #1D232C;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 3;
+}
+
+.searchbar {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-grow: 600;
+}
+
+.searchbar input {
+    border: none;
+    width: 100%;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.products {
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1vw;
+    flex-basis: 25%;
+}
+
+
+
+.news button {
+    margin-top: 10px;
+    font-size: 1.8vw;
+    color: #E2E1E1;
+    background-color: #1D232C;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.news {
+    font-size: 2vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
